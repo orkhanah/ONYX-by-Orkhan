@@ -1,0 +1,173 @@
+html, body, body *, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.leftPart{
+    height: 100vh;
+    width: 200px;
+    padding: 60px 50px 60px 50px;
+    background-image: url(https://demo.mikado-themes.com/onyx50/wp-content/uploads/2015/03/left-menu-background.jpg);
+    background-size: cover;
+    position: fixed;
+}
+
+.logo{
+    width: 200px;
+    height: 82px;
+    background-image: url(https://demo.mikado-themes.com/onyx50/wp-content/uploads/2015/04/logo_retina.png);
+    background-size: cover;
+}
+
+
+.menu{
+    margin-top: 45px;
+}
+
+.menu i{
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover{
+    color: #d34e35;
+}
+
+.menu ul li{
+    padding: 8px 0;
+    list-style: none;
+}
+
+.second ul li{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    padding: 5px 0;
+    transition: .3s;
+}
+
+.second ul li:hover{
+    color: #d34e35;
+}
+
+.contact{
+    margin-top: 22px;
+}
+
+.socialMedia i{
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.socialMedia{
+    margin-top: 20px;
+}
+
+.socialMedia i:hover{
+    color: #393939;
+}
+
+.socialMedia li{
+    list-style-type: none;
+}
+
+.rightPart{
+    height: 100vh;
+    float: right;
+    margin-left: 299px;
+}
+
+.product1{
+    width: 340px;
+    height: 430px;
+    border : 1px solid rgb(238, 238, 238);
+    border-right: none;
+}
+
+.productImage{
+    position: relative;
+}
+
+.image{
+    background-image: url(https://demo.mikado-themes.com/onyx50/wp-content/uploads/2015/04/s-img-orange-armchair-300x300.jpg);
+    width: 341px;
+    height: 340px;
+    background-size: cover;
+}
+
+.darkImage{
+    width: 340px;
+    height: 340px;
+    background-color: #fff;
+    opacity: 0;
+    position: absolute;
+   top: 0;
+    transition: 0.5s;
+}
+
+.darkImage:hover{
+    opacity: 0.6;
+}
+
+.darkImage i{
+    position: absolute;
+    top: 165px;
+    left: 150px;
+    font-size: 50px;
+    color: #d34e35;
+}
+
+.productDetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+.productTitle{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(59, 59, 59);
+    margin-left: 20px;
+    transition: .7s;
+}
+
+.productTitle:hover{
+    color: #d34e35;
+}
+
+.productRight{
+    width: 152px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.productRight span{
+    transition: .5s;
+}
+
+.productRight span:hover{
+    color: #d34e35;
+}
+
+.rightPart .pr{
+    display: inline-block;
+}
+
+
+
